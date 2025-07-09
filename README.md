@@ -8,7 +8,7 @@
 ## Getting Started
 To begin vibe coding, you only need two tools:  
 - **Gemini 2.5 Pro Thinking**  
-- **Cursor with Claude Sonnet 3.7 Thinking**  
+- **Cursor with Claude Sonnet 4 Thinking**  
 
 *(Note: While earlier versions of this guide utilized Grok 3, we have transitioned to **Gemini 2.5 Pro**. The primary reasons for this shift are Gemini's impressive 1M token context window, which allows for a much broader understanding of the project, and its capabilities in handling complex software architecture, making it a more powerful partner for this workflow.)*
 
@@ -68,12 +68,12 @@ Setting up everything correctly is key. If you’re serious about creating a ful
 Now the fun begins!
 
 ### Making sure everything is clear
-- Select **Claude Sonnet 3.7 Thinking** in Cursor. 
+- Select **Claude Sonnet 4 Thinking** in Cursor. 
 - Prompt: Read all the documents in `/memory-bank`, is `implementation-plan.md` clear? What are your questions to make it 100% clear for you?
 - He usually asks 9-10 questions, answer them and prompt him to edit the `implementation-plan.md` accordingly, so it's even better.
 
 ### Your first implementation prompt
-- Select **Claude Sonnet 3.7 Thinking** in Cursor.  
+- Select **Claude Sonnet 4 Thinking** in Cursor.  
 - Prompt: Read all the documents in `/memory-bank`, and proceed with Step 1 of the implementation plan. I will run the tests. Do not start Step 2 until I validate the tests. Once I validate them, open `progress.md` and document what you did for future developers. Then add any architectural insights to `architecture.md` to explain what each file does.
 
 - **Extreme vibe:** Install [Superwhisper](https://superwhisper.com) to speak casually with Claude instead of typing.  
