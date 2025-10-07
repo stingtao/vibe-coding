@@ -14,7 +14,7 @@ This guide works for both the CLI versions (to use in the terminal) and the VSCo
 
 *(Note: While earlier versions of this guide utilized Grok 3, we then transitioned to **Gemini 2.5 Pro**. And now we're using Claude 4.5 (or Codex))*
 
-*(Note 2: If you want to use Cursor, please check the version 1.1 of this guide, but we believe it's less powerful than Code or Claude Code)*
+*(Note 2: If you want to use Cursor, please check the [version 1.1](https://github.com/EnzeD/vibe-coding/tree/1.1.1) of this guide, but we believe it's less powerful than Code or Claude Code)*
 
 Setting up everything correctly is key. If you’re serious about creating a fully functional and visually appealing game (or app), take the time to establish a solid foundation.  
 
