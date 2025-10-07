@@ -12,9 +12,9 @@ To begin vibe coding, you only need one of these two tools:
 
 This guide works for both the CLI versions (to use in the terminal) and the VSCode extension versions (both Codex and Claude Code have one, with a more recent interface).
 
-*(Note: While earlier versions of this guide utilized Grok 3, we then transitioned to **Gemini 2.5 Pro**. And now we're using Claude 4.5 (or Codex))*
+*(Note: While earlier versions of this guide utilized **Grok 3**, we then transitioned to **Gemini 2.5 Pro**. And now we're using **Claude 4.5** (or **gpt-5-codex (high)**))*
 
-*(Note 2: If you want to use Cursor, please check the [version 1.1](https://github.com/EnzeD/vibe-coding/tree/1.1.1) of this guide, but we believe it's less powerful than Code or Claude Code)*
+*(Note 2: If you want to use Cursor, please check the [version 1.1](https://github.com/EnzeD/vibe-coding/tree/1.1.1) of this guide, but we believe it's less powerful than Codex CLI or Claude Code)*
 
 Setting up everything correctly is key. If you’re serious about creating a fully functional and visually appealing game (or app), take the time to establish a solid foundation.  
 
@@ -137,6 +137,9 @@ Congratulations, you’ve built the base game! It might be rough and lack featur
 
 **Q: Your plane in your dogfight game is amazing, but I can’t replicate it in one prompt!**  
 **A:** It’s not one prompt—it’s ~30 prompts, guided by a specific `plane-implementation.md` file. Use sharp, specific prompts like “cut out space in the wings for ailerons,” not vague ones like “make a plane.”
+
+**Q: Why is Claude Code or Codex CLI better than Cursor right now?**  
+**A:** It really is up to your liking. We highlight that Claude Code is better at using Claude Sonnet 4.5, and Codex CLI is better at using GPT-5 than Cursor is at using either of them. Having them live in the terminal unlocks many more development workflows: working from any IDE, hopping onto a remote server through SSH, and so on. There are powerful customization options such as custom commands, sub-agents, and hooks that will speed up both the quality and the pace of development over time. Finally, if you’re on the lower-tier Claude or ChatGPT plan, that’s enough to get started.
 
 **Q: I don't know how to set up a server for my multiplayer game**  
 **A:** Ask your AI.
